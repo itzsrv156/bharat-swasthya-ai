@@ -1,3 +1,14 @@
 # BharatSwasthyaAI
 
-BharatSwasthyaAI is an AWS‑native voice-first clinical assistant for Primary Health Centers that converts clinician–patient consultations into structured longitudinal medical records, generates clinical summaries and regional language patient instructions, and flags high‑risk cases. Designed for low-connectivity rural settings and piloting in Kannada, Hindi, and English.
+BharatSwasthyaAI is a cloud-native clinical assistant designed for Primary Health Centers (PHCs) in rural India.
+
+The system captures consultation audio, generates structured SOAP clinical notes, identifies high-risk patients, and provides regional-language discharge instructions with offline support.
+
+This repository contains:
+
+- requirements.md – Generated using Kiro Spec flow
+- design.md – Generated using Kiro Design flow
+
+Hackathon Submission: AWS AI for Bharat  
+Challenge Track: Healthcare & Life Sciences
+
