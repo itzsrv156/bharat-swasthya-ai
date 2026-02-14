@@ -1,4 +1,4 @@
-# Design — BharatSwasthyaAI (Concise)
+# Design — BharatSwasthyaAI 
 
 ## High-level flow
 Client (Android PWA) -> API Gateway (Cognito auth) -> Lambda ingest -> S3 (audio) -> Transcribe Medical -> Transcript -> Bedrock (RAG + prompts) -> Structured JSON -> DynamoDB -> SageMaker risk scoring -> Notifications/TTS -> Client
